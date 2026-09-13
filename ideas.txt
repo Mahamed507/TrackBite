@@ -1,0 +1,25 @@
+Goal for this project: Internship
+
+
+Features:
+Phase 1: Core MVP
+Build these first.
+User signup/login
+Profile setup
+age
+gender
+weight
+height
+activity level
+goal: lose / maintain / gain
+Daily calorie calculation
+Meal logging
+Workout logging
+Dashboard
+calories consumed
+calories burned
+remaining calories
+progress toward goal
+
+
+

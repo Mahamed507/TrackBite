@@ -1,0 +1,123 @@
+:root {
+    --primary: #000000;
+    --secondary: #FFFFFF;
+    --accent: #FF5E5B;
+    --shadow: 8px 8px 0px var(--primary);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
+body {
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 24px;
+    gap: 20px;
+    background: var(--secondary);
+}
+
+.sign-in > h1 {
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form-sign {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid var(--primary);
+    padding: 40px 30px;
+    background: var(--secondary);
+    box-shadow: var(--shadow);
+    position: relative;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-sign::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: -6px;
+    bottom: -6px;
+    border: 2px solid var(--primary);
+    z-index: -1;
+    border-radius: 12px;
+}
+
+.form-sign input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 2px solid var(--primary);
+    background: var(--secondary);
+    font-size: 15px;
+    outline: none;
+    font-family: 'Courier New', monospace;
+    border-radius: 6px;
+    transition: box-shadow 0.2s;
+    color: var(--primary);
+}
+
+.form-sign input:focus {
+    box-shadow: 4px 4px 0px var(--primary);
+}
+
+.btn {
+    width: 100%;
+    padding: 13px;
+    background: var(--accent);
+    color: var(--secondary);
+    border: 2px solid var(--primary);
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 0px var(--primary);
+    transform: translate(-2px, -2px);
+}
+
+.btn:active {
+    box-shadow: none;
+    transform: translate(0, 0);
+}
+
+.form-sign > p {
+    text-align: center;
+    font-size: 13px;
+    color: #555;
+}
+
+.form-sign a p {
+    color: var(--accent);
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 13px;
+    text-align: center;
+}
