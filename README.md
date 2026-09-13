@@ -1,6 +1,46 @@
 # TrackBite
 Count how many calories you consumed.
 
+## Tech Stack
+
+### Frontend
+
+- React , HTML , CSS
+
+## Backend
+
+- Python / Flask
+
+## Database
+
+- SQLite
+
+## AI Integration
+
+- Google Gemini AI
+
+## External API
+
+- 	USDA FoodData Central API
+
+
+## API Overview
+
+The backend exposes a REST API built with Flask, including endpoints for:
+
+User signup
+
+User login
+
+Meal storage
+
+Meal retrieval
+
+
+
+
+
+
 # Images 
 <img width="1440" height="900" alt="Untitled 1" src="https://github.com/user-attachments/assets/9f727a9d-aa69-47d9-99cc-1619bfc04e12" />
 <img width="1440" height="900" alt="Untitled 2" src="https://github.com/user-attachments/assets/1630d246-83ea-48ae-aede-dfdecf246447" />
